@@ -20,7 +20,8 @@ A modern, responsive landing page for the WanderSecure tourist safety monitoring
 ## 📁 Project Structure
 
 ```
-├── assets/           # App screenshots (1.jpg - 8.jpg)
+├── public/
+│   └── assets/       # App screenshots (1.jpg - 8.jpg)
 ├── src/
 │   ├── App.jsx      # Main landing page component
 │   ├── App.css      # Component styles
@@ -88,7 +89,7 @@ The built files will be in the `dist/` directory.
 
 ## 📱 Adding Screenshots
 
-1. Place your app screenshots in the `assets/` folder
+1. Place your app screenshots in the `public/assets/` folder
 2. Name them `1.jpg`, `2.jpg`, `3.jpg`, etc. (up to 8 images)
 3. The images will automatically appear in the screenshots section
 4. Images are optimized for mobile app display with proper aspect ratios
